@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class AnzeigeWert : Form
     {
-        public Form1()
+        public AnzeigeWert()
         {
             InitializeComponent();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Geschwindigkeit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
